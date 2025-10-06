@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cosmetics Online Shop  </h1>
+    </header>
+
+    <main>
+        <div id="search-box">
+            <div id="search-input">
+                <input placeholder="Search by name" type="text">
+            </div>
+
+            <div id="Search-category">
+                 <button class="filter selected-button" data-category="All"> All</button>
+                <button class="filter" data-category="skincare"> skincare</button>
+                <button class="filter" data-category="Makeup"> Makeup</button>
+                <button class="filter" data-category="Hair"> Hair</button>
+                <button class="filter" data-category="Bath"> Bath&Body</button>  
+                <button class="filter" data-category="Perfumes"> Perfumes</button>
+               
+                
+            </div>
+            
+            <div id="search-price">
+                <input placeholder="Search by price" type="number">
+                <button >Search</button>
+
+            </div>
+        </div>
+
+        <div id="prducts-box">
+            <div class="product-item" data-category="skincare">
+                <img src="./images/sunscreen2.png"/>
+                <p> SunScreen Spf50 </p>
+                <span> $100</span>
+
+            </div>
+            <div class="product-item" data-category="skincare">
+                <img src="./images/sunscreen1.png"/>
+                <p> SunScreen Spf50 </p>
+                <span> $120</span>
+
+            </div>
+
+            <div class="product-item" data-category="Makeup">
+                <img src="./images/lipstick.jpg"/>
+                <p> Lido Lipstick </p>
+                <span> $6</span>
+
+            </div>
+
+            <div class="product-item" data-category="Makeup">
+                <img src="./images/eyeshadow.jpg"/>
+                <p> Lido Lipstick </p>
+                <span> $60</span>
+
+            </div>
+
+            <div class="product-item" data-category="Hair">
+                <img src="./images/shampoo.jpg"/>
+                <p> Hair Shampoo </p>
+                <span> $100</span>
+
+            </div>
+            
+            <div class="product-item" data-category="Hair">
+                <img src="./images/hairmask.jpg"/>
+                <p> Lido Lipstick </p>
+                <span> $160</span>
+
+            </div>
+            <div class="product-item" data-category="Bath">
+                <img src="./images/bodyLotion.jpg"/>
+                <p> Body Lotion </p>
+                <span> $70</span>
+
+            </div>
+            <div class="product-item" data-category="Perfumes">
+                <img src="./images/perfume.jpg"/>
+                <p> Creed For Women  </p>
+                <span> $300</span>
+
+            </div>
+
+        </div>
+    </main>
+    <script src="js/code.js"></script>
+</body>
+</html>
